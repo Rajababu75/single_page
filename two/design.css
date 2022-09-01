@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    max-width: 100%;
+    min-height: 100%;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(86, 161, 161);
+}
+#nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 90px;
+}
+#logo h1{
+    font-size: 30px;
+    color: rgb(136, 126, 126);
+}
+#menu a{
+    text-decoration: unset;
+    font-size: 15px;
+    font-family: monospace;
+    margin-left: 40px;
+    color: black;
+}
+#circle{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(34, 34, 235, 0.842);
+
+    border-radius: 50%;
+    /* border: 50%; */
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    z-index: -1;
+}
+#con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+#left{
+    flex-basis: 60%;
+    max-width: 400px;
+}
+#right{
+    flex-basis: 30%;
+    text-align: right;
+}
+#right img{
+    width: 80%;
+    /* background-color: none; */
+    /* background: transparent; */
+}
+#left h1{
+    font-size: 25px;
+}
+#left span{
+    color: gray;
+
+    
+}
+#lorem{
+    font-size: 17px;
+    margin-top: 10px;
+}
+#btn{
+    margin-top: 30px;
+}
+#btn input{
+    padding: 10px;
+    width: 75%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    outline: none;
+    
+}
+#btn button{
+    padding: 10px;
+    color:black;
+    border: none;
+    outline: none;
+    /* width: 40%; */
+    border-radius: 9px;
+}
+#counter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+#main{
+    /* padding: 100px 50px; */
+}
+#feauter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+#feature-left{
+    flex-basis: 35%;
+}
+#feature-left img{
+    width: 60%;
+}
+#feature-right{
+    flex-basis: 50%;
+    max-width: 500px;
+}
+#feature-right h2{
+    color: black;
+}
+#feature-right h4{
+    font-size: 30px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 40px;
+}
+#feature-right p{
+    margin: 10px 0px;
+    color: white;
+}
+#c-btn{
+    background: none;
+    padding: 10px;
+    border: 1px solid rgb(112, 39, 185);
+    background-color: azure;
+
+    
+
+}
+#c-btn:hover{
+    background-color: rgb(196, 79, 79);
+}
+#another{
+    padding: 100px 50px;
+    background-color: rgb(208, 216, 215);
+}
+#feature2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: rgb(75, 75, 128); */
+}
+#feature2-left{
+    flex-basis: 50%;
+    max-width: 500px;
+
+}
+#feature2-right{
+    flex-basis: 50%;
+}
+#feature2-right img{
+    width: 60%;
+}
+#feature2-left h1{
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 40px;
+}
+#feature2-left p{
+    margin: 20px 0px;
+    color:black;
+}
+#program{
+    padding: 100px 50px;
+    background-color: cornflowerblue;
+}
+#selling{
+    background-color: cornsilk;
+    padding: 50px;
+}
+#headind h1{
+    font-size: 35px;
+    color: rgb(23, 23, 231);
+    font-family: monospace;
+    
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    
+}
+#section{
+    padding: 50px;
+    background-color: azure;
+}
+#section h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#selling-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#selling-box{
+    flex-basis: 30%;
+    text-align: center;
+}
+#selling-box img{
+    width: 100%;
+}
+#selling-box >div{
+    background: rgba(0,0,0,0.05);
+}
+#selling-box h3{
+    margin: 10px 0px;
+}
+#offer{
+    background-color: rgb(135, 206, 158);
+    padding: 100px 50px;
+}
+#offer-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#offer-left{
+    flex-basis: 50%;
+    max-width: 500px;
+}
+#offer-right{
+    flex-basis: 50%;
+}
+#offer-right img{
+    width: 80%;
+    width: 300px;
+    height: 350px;
+}
+#offer-left h1{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+#offer-left span{
+    margin: 10px;
+    color: grey;
+}
+#offer-left p{
+    margin: 20px 0px;
+    color: rgba(0, 0, 0, 0.925);
+    font-size: 17px;
+} 
+#f-btn{
+    
+    padding: 10px;
+    background: none;
+    border: 1px solid blueviolet;
+    /* border: none; */
+    /* outline: none; */
+}
+#blog{
+    padding: 100px 50px;
+    background-color: rgba(207, 45, 159, 0.808);
+}
+#blog h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+#blog-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#blog-box{
+    flex-basis: 25%;
+    padding: 10px;
+    box-shadow: 2px 3px 7px grey;
+}
+#blog-box img{
+    width: 100%;
+
+}
+#blog-box p{
+    margin: 20px 0px;
+}
+#l-btn{
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    background-color: aquamarine;
+    border: none;
+    
+}
+#l-btn:hover{
+    background-color: black;
+
+}
+#footer{
+    padding: 50px 50px;
+    margin-bottom: 20px;
+    background-color: rgba(22, 223, 213, 0.322);
+}
+#dis{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#dis input{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background: rgba(0,0,0,0.05);
+
+}
+#dis button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: sienna;
+}
+
+#footer-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#footer-row p{
+    color: rgb(20, 21, 22);
+    margin: 10px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    #menu{
+        display: none;
+    }
+  }
